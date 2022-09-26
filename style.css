@@ -1,0 +1,140 @@
+body {
+    width: 100Vh ; 
+    height: 100Vw;
+    overflow: hidden;
+  
+  }
+body.white-background {
+    background-color: white;
+
+}
+body.red-background {
+    background-color: red;
+}
+body.orange-background {
+    background-color: orange;
+}
+body.purple-background {
+    background-color: purple;
+
+}
+body.green-background {
+    background-color: green;
+}
+
+  h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#fff;
+    margin: 10px 30px;
+  }
+      
+      ul {
+        width:200px;
+        height: 250px;
+        text-decoration: none;
+        list-style: none;
+        opacity: 0;
+        margin: 0;
+        padding-top: 10px;
+        position: relative;
+        transition-duration: 700ms;
+        transition-property: padding-top , opacity ;
+        transition-timing-function: cubic-bezier(1,.11,.22,1.41);
+        transition-delay: 0ms;
+        cursor: pointer;
+      } 
+      ul:hover {
+        opacity: 1;
+        padding-top: 130px;
+        transition-timing-function: ease-in-out;
+      }
+
+      img {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+        margin: 10px 40px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 3px;
+      }
+      
+      li {
+        padding: 20px 10px;
+        text-decoration: none;
+      }
+
+      .white {
+        background-color: #fff;
+        font-weight: bold;
+        border:1px inset grey;
+        border-radius: 3px;
+      }
+      .white:hover {
+        color:aqua;
+       
+      }
+      .red {
+        background-color: red;
+        font-weight: bold;
+        border:1px inset grey;
+        border-radius: 3px;
+      }
+      .red:hover {
+        color:rgb(217, 255, 0);
+       
+      }
+      .orange {
+        background-color: orange;
+        font-weight: bold;
+        border:1px inset grey;
+        border-radius: 3px;
+      }
+      .orange:hover {
+        color:rgb(0, 255, 47);
+       
+      }
+      .purple {
+        background-color: purple;
+        font-weight: bold;
+        border:1px inset grey;
+        border-radius: 3px;
+      }
+      .purple:hover {
+        color:rgb(234, 244, 244);
+       
+      }
+      .green {
+        background-color: green;
+        font-weight: bold;
+        border:1px inset grey;
+        border-radius: 3px;
+      }
+      .green:hover {
+        color:rgb(255, 17, 0);
+       
+      }
+     #white {
+       background-color: #fff;
+       
+     }
+
+     #red {
+        background-color: red;
+       
+     }
+      #orange {
+        background-color: orange;
+       
+
+      }
+      #purple {
+        background-color: purple;
+     
+      }
+      #green {
+        background-color: green;
+     
+      }
+   
