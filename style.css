@@ -22,6 +22,7 @@ body.green-background {
     background-color: green;
 }
 
+
   h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:#fff;
@@ -63,6 +64,7 @@ body.green-background {
       li {
         padding: 20px 10px;
         text-decoration: none;
+        color: grey;
       }
 
       .white {
@@ -72,7 +74,7 @@ body.green-background {
         border-radius: 3px;
       }
       .white:hover {
-        color:aqua;
+        color:rgb(177, 244, 244);
        
       }
       .red {
@@ -82,7 +84,7 @@ body.green-background {
         border-radius: 3px;
       }
       .red:hover {
-        color:rgb(217, 255, 0);
+        color:rgb(246, 155, 155);
        
       }
       .orange {
@@ -92,7 +94,7 @@ body.green-background {
         border-radius: 3px;
       }
       .orange:hover {
-        color:rgb(0, 255, 47);
+        color:rgb(244, 197, 148);
        
       }
       .purple {
@@ -102,7 +104,7 @@ body.green-background {
         border-radius: 3px;
       }
       .purple:hover {
-        color:rgb(234, 244, 244);
+        color:rgb(244, 186, 244);
        
       }
       .green {
@@ -112,7 +114,7 @@ body.green-background {
         border-radius: 3px;
       }
       .green:hover {
-        color:rgb(255, 17, 0);
+        color:rgb(169, 236, 191);
        
       }
      #white {
