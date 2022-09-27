@@ -1,9 +1,10 @@
 
-const radioButton = document.onclick.changeColor;
-
- const changeColor = function() {
+ const toggle = function() {
    
-   const white = document.querySelector(white);
+    const radio = document.querySelectorAll(radio);
+    body.classList.toggle('.white-background' ,'red-background' ,'orange-background' , 'purple-background' , 'green-background' );
+    const body = document.querySelector(toggle);
+    const white = document.querySelector(white);
     body.classList.toggle('.white-background');
     const red = document.querySelector(red);
     body.classList.toggle('.red-background');
@@ -18,15 +19,15 @@ const radioButton = document.onclick.changeColor;
 }; 
 
 const white = document.querySelector('.white-background');
-radio.addEventListener('onclick', ()=>{body.style.background="white"});
+radio.addEventListener('click', toggle);
 const red = document.querySelector( '.red-background');
-radio.addEventListener('onclick', ()=>{body.style.background="red"});
+radio.addEventListener('click', toggle);
 const orange = document.querySelector('.orange-background');
-radio.addEventListener('onclick', ()=>{body.style.background="orange"});
+radio.addEventListener('click', toggle);
 const purple = document.querySelector('.purple-background');
-radio.addEventListener('onclick', ()=>{body.style.background="purple"});
+radio.addEventListener('click', toggle);
 const green = document.querySelector('.green-background');
-radio.addEventListener('onclick', ()=>{body.style.background="green"});
+radio.addEventListener('click', toggle);
 
 /*
 const click = function(){
@@ -35,13 +36,13 @@ const click = function(){
 };
 const button = document.querySelector('#mybutton');
 button.addEventListener('click', click);
- 
+
 const clickfun = function(){
     console.log();
-    const body = document.querySelector('.blue-background');
+    const body = document.querySelector('.green-background');
     body.classList.toggle('red-background');
     
 };
-const body = document.querySelector('.blue-background');
+const body = document.querySelector('.green-background');
 button1.addEventListener('click', clickfun);
-*/
+ */

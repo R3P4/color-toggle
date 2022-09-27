@@ -7,21 +7,21 @@ body {
  
   
 body.white-background {
-    background-color: white;
+    background: white;
 
 }
 body.red-background {
-    background-color: red;
+    background: red;
 }
 body.orange-background {
-    background-color: orange;
+    background: orange;
 }
 body.purple-background {
-    background-color: purple;
+    background: purple;
 
 }
 body.green-background {
-    background-color: green;
+    background: green;
 }
 
 
@@ -55,7 +55,7 @@ body.green-background {
       img {
         width: 100px;
         height: 100px;
-        background-color: white;
+        background: white;
         position: absolute;
         margin: 10px 40px;
         padding: 10px;
@@ -70,7 +70,7 @@ body.green-background {
       }
 
       .white {
-        background-color: #fff;
+        background: #fff;
         font-weight: bold;
         border:1px inset grey;
         border-radius: 3px;
@@ -80,7 +80,7 @@ body.green-background {
        
       }
       .red {
-        background-color: red;
+        background: red;
         font-weight: bold;
         border:1px inset grey;
         border-radius: 3px;
@@ -90,7 +90,7 @@ body.green-background {
        
       }
       .orange {
-        background-color: orange;
+        background: orange;
         font-weight: bold;
         border:1px inset grey;
         border-radius: 3px;
@@ -100,7 +100,7 @@ body.green-background {
        
       }
       .purple {
-        background-color: purple;
+        background: purple;
         font-weight: bold;
         border:1px inset grey;
         border-radius: 3px;
@@ -110,7 +110,7 @@ body.green-background {
        
       }
       .green {
-        background-color: green;
+        background: green;
         font-weight: bold;
         border:1px inset grey;
         border-radius: 3px;
@@ -120,25 +120,25 @@ body.green-background {
        
       }
      #white {
-       background-color: #fff;
+       background: #fff;
        
      }
 
      #red {
-        background-color: red;
+        background: red;
        
      }
       #orange {
-        background-color: orange;
+        background: orange;
        
 
       }
       #purple {
-        background-color: purple;
+        background: purple;
      
       }
       #green {
-        background-color: green;
+        background: green;
      
       }
       
