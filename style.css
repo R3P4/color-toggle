@@ -4,6 +4,8 @@ body {
     overflow: hidden;
   
   }
+ 
+  
 body.white-background {
     background-color: white;
 
@@ -139,4 +141,5 @@ body.green-background {
         background-color: green;
      
       }
+      
    

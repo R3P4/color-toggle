@@ -1,26 +1,32 @@
-const click = function() {
-    const white = document.querySelector(body);
+
+const radioButton = document.onclick.changeColor;
+
+ const changeColor = function() {
+   
+   const white = document.querySelector(white);
     body.classList.toggle('.white-background');
-    const red = document.querySelector(body);
+    const red = document.querySelector(red);
     body.classList.toggle('.red-background');
-    const orange = document.querySelector(body);
+    const orange = document.querySelector(orange);
     body.classList.toggle('.orange-background');
-    const purple = document.querySelector(body);
+    const purple = document.querySelector(purple);
     body.classList.toggle('.purple-background');
-    const green = document.querySelector(body);
+    const green = document.querySelector(green);
     body.classList.toggle('.green-background');
+   
     console.log();
-};
+}; 
+
 const white = document.querySelector('.white-background');
-radio.addEventListener('click', ()=>{body.style.background="white"});
+radio.addEventListener('onclick', ()=>{body.style.background="white"});
 const red = document.querySelector( '.red-background');
-radio.addEventListener('click', ()=>{body.style.background="red"});
+radio.addEventListener('onclick', ()=>{body.style.background="red"});
 const orange = document.querySelector('.orange-background');
-radio.addEventListener('click', ()=>{body.style.background="orange"});
+radio.addEventListener('onclick', ()=>{body.style.background="orange"});
 const purple = document.querySelector('.purple-background');
-radio.addEventListener('click', ()=>{body.style.background="purple"});
+radio.addEventListener('onclick', ()=>{body.style.background="purple"});
 const green = document.querySelector('.green-background');
-radio.addEventListener('click', ()=>{body.style.background="green"});
+radio.addEventListener('onclick', ()=>{body.style.background="green"});
 
 /*
 const click = function(){
