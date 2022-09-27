@@ -6,28 +6,19 @@ body {
   }
  
   
-body.white-background {
-    background: white;
+p#id {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  font-style: bold;
+  color: rgb(200, 200, 225);
+  margin-left: 50%;
+ 
 
 }
-body.red-background {
-    background: red;
-}
-body.orange-background {
-    background: orange;
-}
-body.purple-background {
-    background: purple;
-
-}
-body.green-background {
-    background: green;
-}
-
 
   h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:#fff;
+    color:rgb(64, 172, 219);
     margin: 10px 30px;
   }
       
@@ -51,7 +42,8 @@ body.green-background {
         padding-top: 130px;
         transition-timing-function: ease-in-out;
       }
-
+    
+    
       img {
         width: 100px;
         height: 100px;
@@ -79,6 +71,7 @@ body.green-background {
         color:rgb(177, 244, 244);
        
       }
+      
       .red {
         background: red;
         font-weight: bold;
