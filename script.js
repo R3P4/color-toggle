@@ -19,7 +19,7 @@ console.log();
  
 
 const radioButtons = document.querySelectorAll('input[name="bgcolor"]');
-const ul = document.querySelector("ul");
+const ul = document.querySelector("li");
         for(const radioButton of radioButtons){
             radioButton.addEventListener('change', showSelected);
             ul.addEventListener('click', ()=>{ul.style.opacity= 0 } , ()=> {ul.style.transitionDuration= "700ms" });
